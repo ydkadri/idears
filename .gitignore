@@ -1,0 +1,5 @@
+# Compiled target
+/target
+
+# Vim swap files
+*.swp
