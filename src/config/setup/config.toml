@@ -1,0 +1,3 @@
+[defaults]
+ideas_dir = ~/.ideas
+editor = vim
