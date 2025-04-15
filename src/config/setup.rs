@@ -1,7 +1,8 @@
 use shellexpand;
 use std::io::Error;
 
-mod constants;
+use crate::config::constants;
+
 
 pub fn setup() -> Result<(), Error> {
     let binding = shellexpand::tilde(constants::CONFIG_DIR);
