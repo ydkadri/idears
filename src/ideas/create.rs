@@ -26,7 +26,7 @@ fn create_idea(ideas_dir: &str, editor: &str) -> Result<(), InquireError> {
             let mut idea_file = File::create(&idea_path).expect("Failed to create idea file");
 
             // Write the title to the file
-            let header = format!("# {}\n\n", title);
+            let header = format!("# {}", title);
             idea_file
                 .write_all(header.as_bytes())
                 .expect("Failed to write to idea file");
