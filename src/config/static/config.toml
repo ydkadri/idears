@@ -1,3 +1,3 @@
-[defaults]
-ideas_dir = ~/.ideas
-editor = vim
+
+ideas_dir = "~/.ideas"
+editor = "vim"

@@ -3,7 +3,6 @@ use std::io::Error;
 
 use crate::config::constants;
 
-
 pub fn setup() -> Result<(), Error> {
     let binding = shellexpand::tilde(constants::CONFIG_DIR);
     let config_dir = binding.as_ref();
