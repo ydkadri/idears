@@ -1,12 +1,12 @@
 [package]
 name = "idears"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Youcef Kadri <youcef.d.kadri@gmail.com>"]
 readme = "README.md"
 license-file = "LICENSE"
 description = "A simple CLI to write and manage your ideas"
-repository = "git@github.com:octo-youcef/idears"
+repository = "https://github.com/octo-youcef/idears"
 categories = ["command-line-utilities"]
 exclude = [
     ".github/",
