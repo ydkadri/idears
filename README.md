@@ -3,10 +3,12 @@ A simple CLI to manage your ideas. Inspired by [Eureka][eureka]
 
 ## TODO
  - [x] Initial repo setup
- - [ ] 0.1.0
-    - [ ] CLI entrypoint
-    - [ ] Configure with file not env vars
-    - [ ] Create idea
+ - [x] 0.1.0
+    - [x] CLI entrypoint
+    - [x] Configure with toml file
+    - [x] Create idea
+ - [ ] Updates
+    - [ ] Don't overwrite existing ideas
     - [ ] List ideas
     - [ ] View ideas
  - [ ] 0.2.0 Categorise notes & list by category
