@@ -2,6 +2,16 @@
 name = "idea"
 version = "0.1.0"
 edition = "2024"
+authors = ["Youcef Kadri <youcef.d.kadri@gmail.com>"]
+readme = "README.md"
+license-file = "LICENSE"
+description = "A simple CLI to write and manage your ideas"
+repository = "git@github.com:octo-youcef/idears"
+categories = ["command-line-utilities"]
+exclude = [
+    ".github/",
+    ".gitignore",
+]
 
 [dependencies]
 inquire = "0.7.5"

@@ -1,5 +1,7 @@
-# Idea
-A simple CLI to manage your ideas. Inspired by [Eureka][eureka]
+# IdeaRS
+A simple CLI to write and manage your ideas.
+
+Inspired by [Eureka][eureka]
 
 ## TODO
  - [x] Initial repo setup
