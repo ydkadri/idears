@@ -1,6 +1,6 @@
 use std::io::Error;
 
-use idea::{config, ideas};
+use idears::{config, ideas};
 
 fn main() -> Result<(), Error> {
     config::setup::setup()?;
